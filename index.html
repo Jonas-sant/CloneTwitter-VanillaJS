@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>Twitter Clone</title>
+</head>
+<body class="flex">
+    <header class="w-1/5 ">
+        <figure class="mt-8 ml-8 mb-10">
+            <img src="./assets/img/birdlogo.svg" alt="">
+            <figcaption hidden>Logo TT Clone</figcaption>
+        </figure>
+        <nav class="h-3/4 border-r border-solid border-slate-200">
+            <ul>
+                <li class="flex m-4">
+                    <img src="./assets/img/Home.png" alt="Home">
+                    <a href="#" class="ml-2 font-bold">Página Inicial</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/Hashtag.png" alt="Explorer">
+                    <a href="#" class="ml-2 font-bold">Explorar</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/Notification.png" alt="Notification">
+                    <a href="#" class="ml-2 font-bold">Notificação</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/menssagem.png" alt="Messages">
+                    <a href="#" class="ml-2 font-bold">Menssagens</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/flag.png" alt="Saved">
+                    <a href="#" class="ml-2 font-bold">Itens Salvos</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/list.png" alt="List">
+                    <a href="#" class="ml-2 font-bold">Listas</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/ProfilePic.png" alt="Profile">
+                    <a href="#" class="ml-2 font-bold">Perfil</a>
+                </li>
+                <li class="flex m-4">
+                    <img src="./assets/img/mais.png" alt="Home">
+                    <a href="#" class="ml-2 font-bold">Mais</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="w-3/5">
+        <h3 class = "text-3xl font-bold m-8">Home</h3>
+        <div class="TextB ">
+            <form action="#" class="flex ml-60 flex-col items-end">
+                <textarea class="rounded-md focus:outline-none focus:shadow-md focus:shadow-sky-100" name="postTwit" id="postTwit" cols="95" rows="5" placeholder="No que está pensando ?" style="resize:none"></textarea>
+                <button class="font-regular text-white rounded mt-3 bg-sky-400 py-1 px-4" type="submit"># Tweetar</button>
+            </form>
+        </div>
+
+        <section class="">
+
+            <ul classList="">
+                <li class="flex m-4 mb-6">
+                    <img class="w-10 h-10 mr-3"  src="./assets/img/ProfilePic_3.png" alt="Profile Picture">
+
+                    <div class="w-34">
+                        <div class="flex items-center mb-4">
+                            <h2 class="font-bold text-1xl">Daniel</h2>
+                            <span class=" font-bold ml-4 text-slate-400">@danielKenzie 14s</span>
+                        </div>
+                        <p>Mais de 1 Milhão de Vagas! Arigo da McKinsey apnta que, até 2030, o Brasil terá um gargalo de 1 mi de profissionais de tecnologia. É hora de se preparar... #VouSerDev #DoZeroAoCodigo </p>
+                    </div>
+                </li>
+                <li class="flex m-4 mb-6">
+                    <img class="w-10 h-10 mr-3"  src="./assets/img/ProfilePic_3.png" alt="Profile Picture">
+
+                    <div class="w-34">
+                        <div class="flex items-center mb-4">
+                            <h2 class="font-bold text-1xl">Daniel</h2>
+                            <span class=" font-bold ml-4 text-slate-400">@danielKenzie 14s</span>
+                        </div>
+                        <p>Mais de 1 Milhão de Vagas! Arigo da McKinsey apnta que, até 2030, o Brasil terá um gargalo de 1 mi de profissionais de tecnologia. É hora de se preparar... #VouSerDev #DoZeroAoCodigo </p>
+                    </div>
+                </li>
+                <li class="flex m-4 mb-6">
+                    <img class="w-10 h-10 mr-3"  src="./assets/img/ProfilePic_3.png" alt="Profile Picture">
+
+                    <div class="w-34">
+                        <div class="flex items-center mb-4">
+                            <h2 class="font-bold text-1xl">Daniel</h2>
+                            <span class=" font-bold ml-4 text-slate-400">@danielKenzie 14s</span>
+                        </div>
+                        <p>Mais de 1 Milhão de Vagas! Arigo da McKinsey apnta que, até 2030, o Brasil terá um gargalo de 1 mi de profissionais de tecnologia. É hora de se preparar... #VouSerDev #DoZeroAoCodigo </p>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
+</body>
+</html>
